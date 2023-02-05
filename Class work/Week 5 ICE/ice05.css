@@ -1,0 +1,46 @@
+#image
+{
+    background-color: gray;
+}
+.desk
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: solid rgb(55, 55, 55) 10px;
+}
+.graphic
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: solid rgb(55, 55, 55) 10px;
+}
+.person
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: solid rgb(55, 55, 55) 10px;
+}
+#image
+{
+    padding: 60px;
+    text-align: center;
+}
+div img
+{
+    margin: 50px;
+}
+.pic
+{
+    width: 100%;
+    margin-bottom: -5px;
+}
+body
+{
+    margin: 0;
+}
