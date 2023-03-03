@@ -174,3 +174,44 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.photo_at_home{
+  max-width: 25%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 1fr;
+}
+.photo_in_bed{
+  max-width: 25%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 1fr;
+}
+.photo_with_tof{
+  max-width: 25%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.silly_hat{
+  max-width: 25%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.toffee_asleep{
+  max-width: 25%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.toffee_couch{
+  max-width: 25%;
+  height: auto;
+}
+.toffee_jacket{
+  max-width: 25%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+}
