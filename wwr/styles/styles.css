@@ -238,6 +238,9 @@ border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.vivek_img{
+    width: 650px;
+}
 
 .rivers_grid{
     display: grid;
