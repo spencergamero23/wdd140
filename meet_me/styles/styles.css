@@ -1,0 +1,35 @@
+/* Header */
+.logo{
+    max-width: 5%;
+    height: auto;
+  }
+
+/* Home Page  */
+.photo_with_tof{
+  max-width: 25%;
+  height: auto;
+}
+.photo_at_home{
+  max-width: 25%;
+  height: auto;
+}
+
+/* About Me */
+.photo_in_bed{
+  max-width: 25%;
+  height: auto;
+}
+
+.silly_hat{
+  max-width: 25%;
+  height: auto;
+}
+/* Silly Dog */
+.toffee_asleep{
+  max-width: 25%;
+  height: auto;
+}
+.toffee_jacket{
+  max-width: 25%;
+  height: auto;
+}
