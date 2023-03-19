@@ -8,6 +8,7 @@ header{
   grid-template-columns: 150px auto;
   font-size: 22px;
   background-color: #183A37;
+  border: 5px solid #04151f;
 }
 .logo{
     max-width: 50%;
@@ -35,6 +36,7 @@ footer{
   justify-content: space-around;
   align-items: center;
   background-color: #183A37;
+  border: 5px solid #04151f;
 }
 footer a{ 
   color: #04151f;
@@ -67,12 +69,14 @@ footer a:hover{
   height: auto;
   grid-column: 1/2;
   grid-row: 3/4;
+  border: 5px solid #04151f;
 }
 .photo_at_home{
   max-width: 50%;
   height: auto;
   grid-column: 2/3;
   grid-row: 2/3;
+  border: 5px solid #04151f;
 }
 
 /* About Me */
