@@ -59,7 +59,7 @@ footer a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  place-items: center;
+  justify-items: center;
 }
 .accomplishments{
  grid-column: 1/3;
@@ -125,15 +125,105 @@ footer a:hover{
 }
 
 /* About Me */
+.home-grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+.about_me{
+  grid-column: 1/3;
+  text-align: center;
+}
 .photo_in_bed{
-  max-width: 25%;
+  max-width: 30%;
   height: auto;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .silly_hat{
+  max-width: 30%;
+  height: auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.cutie_toffee{
   max-width: 25%;
   height: auto;
 }
+.my_family{
+  max-width: 50%;
+  height: auto;
+}
+.Seattle_Supersonics{
+  max-width: 25%;
+  height: auto;
+}
+.Seinfeld{
+  max-width: 50%;
+  height: auto;
+}
+.Allen_Iverson{
+  max-width: 50%;
+  height: auto;
+}
+.caption{
+  text-align: center;
+  line-height: 1.5em;
+  padding: 35px;
+  background-color: #183A37;
+  color: #EFD6AC;
+  border: 10px solid #04151f;
+}
+.section_1{
+grid-column: 1/2;
+grid-row: 2/3;
+text-align: center;
+padding-right: 10px;
+}
+.section_2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+}
+.section_3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: center;
+  padding-right: 10px;
+}
+.section_4 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+}
+.section_5 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  text-align: center;
+  padding-right: 10px;
+}
+.section_6 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  text-align: center;
+}
+.section_7 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  text-align: center;
+  padding-right: 10px;
+}
+.section_8 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  text-align: center;
+}
+.caption h2{
+  color: #04151f;
+}
+
 /* Silly Dog */
 .toffee_asleep{
   max-width: 25%;
