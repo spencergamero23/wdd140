@@ -70,26 +70,28 @@ footer a:hover{
  grid-row: 1/2;
  text-align: center; 
 }
-.photo_with_tof{
-  max-width: 50%;
+.personal_project{
+  max-width: 300%;
   height: auto;
   grid-column: 1/2;
   grid-row: 3/4;
   border: 5px solid #04151f;
 }
-.photo_at_home{
-  max-width: 50%;
+.service_project{
+  max-width: 300%;
   height: auto;
   border: 5px solid #04151f;
 }
 .container1{
   grid-column: 1/2;
   grid-row: 3/4;
+  margin-top: -200px;
 }
 .container2{
   grid-column: 2/3;
   grid-row: 2/3;
-
+  margin-left: -1425px;
+  margin-top: -300px;
 }
 .container1, .container2 {
   position: relative;
@@ -103,11 +105,15 @@ footer a:hover{
   left: 0;
   right: 0;
   height: 100%;
-  width: 53%;
+  width: 303%;
   opacity: 0;
   transition: .5s ease;
   background-color: #c44900;
 }
+.container2 .overlay{
+  height: 71.5%;
+}
+
 
 .container1:hover .overlay {
   opacity: 1;
@@ -116,7 +122,7 @@ footer a:hover{
   opacity: 1;
 }
 
-.text {
+.first_text, .second_text {
   color: white;
   font-size: 20px;
   position: absolute;
