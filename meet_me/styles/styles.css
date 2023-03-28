@@ -233,6 +233,9 @@ padding-right: 10px;
 .caption h2{
   color: #04151f;
 }
+img {
+  border: 5px solid #04151f;
+}
 
 /* Silly Dog */
 .home-grid-3{
